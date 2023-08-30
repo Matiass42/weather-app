@@ -6,7 +6,7 @@ import Navigation from '../../component/navigation'
 import Card from '../../component/Card';
 import '../globals.css'
 
-export default function home(){
+export default function Home(){
     const [weatherData, setWeatherData] = useState("");
     const handleWeatherData = (data) => {
         setWeatherData(data);

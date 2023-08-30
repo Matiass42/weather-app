@@ -14,8 +14,8 @@ export default function Navigation(){
         <div className={styles.allcont}>
             <nav>
                 <p className={styles.listaL}>
-                    {link.map(({label,route})=>(
-                        <h2>
+                    {link.map(({label,route},index)=>(
+                        <h2 key={index}>
                             <Link href={route}>
                                 {label}
                             </Link>
@@ -26,4 +26,3 @@ export default function Navigation(){
         </div>
     )
 }
-//https://github.com/CodenautaJorge/openweather-react/blob/main/src/components/Form.js

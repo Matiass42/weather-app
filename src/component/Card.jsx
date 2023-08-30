@@ -1,4 +1,5 @@
 import styles from './Card.module.css'
+import Image from 'next/image';
 
 export default function Card({ min, max, name, img, onClose, id }) {
     return (
@@ -9,11 +10,11 @@ export default function Card({ min, max, name, img, onClose, id }) {
                     <h2>{name}</h2>
                 </div>
                 <div className="Cardimg">
-                    <img
+                <Image
                         className="iconoClima"
                         src={`http://openweathermap.org/img/wn/${img}@2x.png`}
-                        width="80"
-                        height="80"
+                        width={80}
+                        height={80}
                         alt=""
                     />
                 </div>
