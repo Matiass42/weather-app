@@ -1,0 +1,56 @@
+.allcont{
+  background-image: url('../img/weatheapp.gif');
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%  100%;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+.allcont h1{
+  color: aquamarine;
+  font-size: 5rem;
+  position: relative;
+  display: flex;
+  top: 5%;
+  justify-content: center;
+  text-shadow: 0 0 5px white,0 0 15px rgb(39, 43, 255), 0 0 50px rgb(36, 25, 139);
+}
+.posB{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 10%;
+}
+.imgB{
+  cursor: pointer;
+  transition: opacity 0.4s ease; 
+}
+.imageText {
+  color: rgb(0, 0, 216);
+  position: absolute;
+  top: -7%;
+  left: 48.5%;
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 0 0 5px rgb(0, 255, 195);
+  /*text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00;
+  animation: neon-glow 1s ease-in-out infinite alternate;*/
+
+}
+/*
+@keyframes neon-glow {
+  0% {
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00;
+  }
+  100% {
+    text-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 60px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00, 0 0 120px #00ff00;
+  }
+}
+*/
+.imgB:hover {
+
+  width: 210px;
+  height: 110px;
+}

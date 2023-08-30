@@ -1,0 +1,29 @@
+.Navbar{
+    display: flex;
+    text-align: center;
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+    top: 0%;
+}
+.allcont{
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Serch{
+    position: absolute;
+    display: flex;
+    top: 10%;
+}
+.DateW{
+    display: flex;
+    position: relative;
+    height: 10vh;
+    width: 10vw;
+}

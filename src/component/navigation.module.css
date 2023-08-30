@@ -1,0 +1,8 @@
+.allcont{
+    background-color: blueviolet;
+    width: 100vw;
+}
+.listaL{
+    display: flex;
+    gap: 10px;
+}
